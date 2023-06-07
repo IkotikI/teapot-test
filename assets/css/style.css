@@ -1,0 +1,117 @@
+/* Header */
+
+.page {
+	display: flex;
+}
+
+.header {
+	height: 60px;
+	display: flex;
+}
+
+.header > .nav {
+	display: flex;
+	width: 100%;
+}
+
+.nav-item {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.products-edit {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+/* Products */
+
+#product-list {
+	display: flex;
+    flex-direction: column;
+}
+
+.product-exerpt-editable {
+/*	margin: auto;*/
+}
+
+.product-exerpt-editable > div {
+	padding: 10px 20px;
+}
+
+.product-exerpt-editable .btn {
+	height: fit-content;
+}
+
+/* Add product form */
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+select,
+textarea {
+	padding: 10px 20px;
+	border: 1px solid #777;
+	border-radius: 6px;
+}
+
+.btn {
+	padding: 10px 20px;
+	border: none;
+	background: #2ea44f;
+	border-radius: 3px;
+}
+
+.product-editor-form {
+/*	margin: auto;*/
+	display: flex;
+/*	flex-direction: column;*/
+}
+
+.product-editor-form input {
+/*	margin-bottom: 20px;*/
+	height: 20px;
+	margin-right: 20px;
+}
+
+.product-editor-form textarea {
+	margin-right: 20px;
+}
+
+.product-editor-form select {
+	height: 40px;
+	margin-right: 20px;
+}
+
+/*
+.registration-message {
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 10px 8px;
+}
+
+.registration-message-succsess {
+	border-color: #2ea44f;
+}
+
+.registration-message-error {
+	border-color: orange;
+}
+
+.admin-page-content {
+	min-height: 100vh;
+	margin-left: 160px;
+	padding-left: 20px;
+}*/
+
+/* Pagination */
+
+.pagination {
+
+}
+
+.pagination a {
+	padding: 10px;
+}
